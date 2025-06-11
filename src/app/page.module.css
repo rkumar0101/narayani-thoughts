@@ -1,0 +1,32 @@
+/* src/app/page.module.css */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 6rem;
+  background-color: #F8F9FA; /* Our 'background' color */
+}
+
+.title {
+  font-size: 2.25rem; /* 36px */
+  font-weight: bold;
+  color: #1A2A4A; /* Our 'primary' color */
+}
+
+.subtitle {
+  color: #4A5568; /* Our 'secondary' color */
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #D97706; /* Our 'accent' color */
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
